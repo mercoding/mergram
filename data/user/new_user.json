@@ -1,0 +1,19 @@
+{
+    "user": [
+        {
+            "firstname": "",
+            "lastname": "",
+            "nickname": "",
+            "avatar": "svg/healthicons--ui-user-profile.svg",
+            "posts": [
+                
+            ],
+            "follower": [
+                
+            ],
+            "followed": [
+                
+            ]
+        }
+    ]
+}

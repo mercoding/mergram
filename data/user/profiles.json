@@ -1,0 +1,526 @@
+{
+    "user": [
+        {
+            "firstname": "Aiden",
+            "lastname": "Miller",
+            "nickname": "Millery",
+            "avatar": "img/portraits/people-875617_1280.jpg",
+            "posts": [
+                {
+                    "timestamp": "15.06.2023, 16:37:47",
+                    "url": "img/pictures/rome-7244828_1280.jpg",
+                    "userComment": "My great trip through Rome...",
+                    "comments": [
+            
+                    ],
+                    "likes": [
+   
+                    ]
+                },
+                {
+                    "timestamp": "17.06.2023, 12:17:04",
+                    "url": "img/pictures/monument-to-emmanuel-ii-411045_1280.jpg",
+                    "userComment": "Here at monument to Emmanuel II, wow what for amazing place...",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                },
+                {
+                    "timestamp": "18.06.2023, 10:47:09",
+                    "url": "img/pictures/colosseum-1799671_1280.jpg",
+                    "userComment": "Today I'm looking at the colloseum...",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                },
+                {
+                    "timestamp": "18.06.2023, 12:07:44",
+                    "url": "img/pictures/rome-4989538_1280.jpg",
+                    "userComment": "Wow, how much history there is to see here...",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                }
+            ],
+            "follower": [
+                "Witch", "Alex", "Karate_Girl"
+            ],
+            "following": [
+                "Witch", "Alex", "Karate_Girl"
+            ]
+        },
+        {
+            "firstname": "Termine",
+            "lastname": "Danger",
+            "nickname": "Witch",
+            "avatar": "img/portraits/ai-generated-witch.png",
+            "posts": [
+                {
+                    "timestamp": "28.08.2023, 8:41:07",
+                    "url": "img/pictures/books-1163695_1280.jpg",
+                    "userComment": "Wow today I bought some books for Hogwarts...",
+                    "comments": [
+            
+                    ],
+                    "likes": [
+   
+                    ]
+                },
+                {
+                    "timestamp": "01.10.2023, 10:10:02",
+                    "url": "img/pictures/travel-3238442_1280.jpg",
+                    "userComment": "Hogwarts we are comming...",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                },
+                {
+                    "timestamp": "01.10.2023, 15:17:26",
+                    "url": "img/pictures/castle-1176423_1280.jpg",
+                    "userComment": "Finally we arrived, what for amzing trip...",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                },
+                {
+                    "timestamp": "15.10.2023, 13:30:45",
+                    "url": "img/pictures/hogwarts-8044060_1280.jpg",
+                    "userComment": "My first time in Hodsmeade...",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                }
+            ],
+            "follower": [
+                "Millery", "Alex", "Karate_Girl"
+            ],
+            "following": [
+                "Millery", "Alex", "Karate_Girl"
+            ]
+        },
+        {
+            "firstname": "Alexander",
+            "lastname": "Mustermann",
+            "nickname": "Alex",
+            "avatar": "img/portraits/portrait-6064965_1280.jpg",
+            "posts": [
+                {
+                    "timestamp": "08.06.2023, 8:41:07",
+                    "url": "img/pictures/forest-56930_1280.jpg",
+                    "userComment": "Was für ein schöner Wald...",
+                    "comments": [
+            
+                    ],
+                    "likes": [
+   
+                    ]
+                },
+                {
+                    "timestamp": "10.06.2023, 10:10:02",
+                    "url": "img/pictures/nature-3616194_1280.jpg",
+                    "userComment": "Was für ein schöner Blick...",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                },
+                {
+                    "timestamp": "11.06.2023, 14:10:26",
+                    "url": "img/pictures/bridge-53769_1280.jpg",
+                    "userComment": "Was für eine schöne Brücke...",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                },
+                {
+                    "timestamp": "15.06.2023, 13:30:45",
+                    "url": "img/pictures/lake-1679708_1280.jpg",
+                    "userComment": "Ein Tag am See...",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                }
+            ],
+            "follower": [
+                "Millery", "Witch", "Karate_Girl"
+            ],
+            "following": [
+                "Millery", "Witch", "Karate_Girl"
+            ]
+        },
+        {
+            "firstname": "Miriam",
+            "lastname": "Stark",
+            "nickname": "Karate_Girl",
+            "avatar": "img/portraits/karate-5015445_1280.jpg",
+            "posts": [
+                {
+                    "timestamp": "28.02.2023, 16:41:07",
+                    "url": "img/portraits/woman-5893036_1280.jpg",
+                    "userComment": "So bereit zum training...",
+                    "comments": [
+            
+                    ],
+                    "likes": [
+   
+                    ]
+                },
+                {
+                    "timestamp": "13.04.2023, 11:15:02",
+                    "url": "img/portraits/boy-1262810_1280.jpg",
+                    "userComment": "Mein Meister...",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                },
+                {
+                    "timestamp": "18.06.2023, 15:10:26",
+                    "url": "img/pictures/karate-7477212_1280.jpg",
+                    "userComment": "Was für ein Kumite, mit so starken Gegnern...",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                },
+                {
+                    "timestamp": "25.07.2023, 21:13:45",
+                    "url": "img/pictures/karate_girl.jpg",
+                    "userComment": "Das heutige Training war spitze...",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                }
+            ],
+            "follower": [
+                "Millery", "Witch", "Alex"
+            ],
+            "following": [
+                "Millery", "Witch", "Alex"
+            ]
+        },
+        {
+            "firstname": "Selma",
+            "lastname": "Bensu",
+            "nickname": "Selly",
+            "avatar": "img/portraits/selly.jpg",
+            "posts": [
+                {
+                    "timestamp": "14.08.2023, 21:41:07",
+                    "url": "img/pictures/tree-736885_1280.jpg",
+                    "userComment": "Ich liebe Sinnenuntergänge...",
+                    "comments": [
+            
+                    ],
+                    "likes": [
+   
+                    ]
+                },
+                {
+                    "timestamp": "28.10.2023, 15:15:02",
+                    "url": "img/pictures/road-8395119_1280.jpg",
+                    "userComment": "Es wird Herbst...",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                },
+                {
+                    "timestamp": "11.12.2023, 18:10:26",
+                    "url": "img/pictures/winter-landscape-2995987_1280.jpg",
+                    "userComment": "Was für eine Winterlandschaft...",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                },
+                {
+                    "timestamp": "25.03.2023, 11:13:45",
+                    "url": "img/pictures/lin-zhi-7151302_1280.jpg",
+                    "userComment": "Frühlingsgefühle...",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                }
+            ],
+            "follower": [
+                
+            ],
+            "following": [
+                
+            ]
+        },
+        {
+            "firstname": "Bob",
+            "lastname": "Logan",
+            "nickname": "Bobby",
+            "avatar": "img/portraits/bobby.jpg",
+            "posts": [
+                {
+                    "timestamp": "14.03.2023, 13:41:07",
+                    "url": "img/pictures/car-6603726_1280.jpg",
+                    "userComment": "Road Trip...",
+                    "comments": [
+            
+                    ],
+                    "likes": [
+   
+                    ]
+                },
+                {
+                    "timestamp": "04.05.2023, 18:15:02",
+                    "url": "img/pictures/child-817371_1280.jpg",
+                    "userComment": "My cute daughter...",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                },
+                {
+                    "timestamp": "11.07.2023, 13:10:26",
+                    "url": "img/pictures/arches-national-park-1846759_1280.jpg",
+                    "userComment": "Arches national park, it was so hot... ",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                },
+                {
+                    "timestamp": "29.08.2023, 11:13:45",
+                    "url": "img/pictures/beach-4405371_1280.jpg",
+                    "userComment": "The beach...",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                }
+            ],
+            "follower": [
+                
+            ],
+            "following": [
+                
+            ]
+        },
+        {
+            "firstname": "Jennifer",
+            "lastname": "Müller",
+            "nickname": "Jenny",
+            "avatar": "img/portraits/woman-6064819_1280.jpg",
+            "posts": [
+                {
+                    "timestamp": "14.07.2023, 11:41:07",
+                    "url": "img/pictures/boots-1638873_1280.jpg",
+                    "userComment": "Der Berg ruft...",
+                    "comments": [
+            
+                    ],
+                    "likes": [
+   
+                    ]
+                },
+                {
+                    "timestamp": "20.08.2023, 9:15:02",
+                    "url": "img/pictures/backpack-1836594_1280.jpg",
+                    "userComment": "Nun gehts los...",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                },
+                {
+                    "timestamp": "20.08.2023, 13:10:26",
+                    "url": "img/pictures/tree-3095683_1280.jpg",
+                    "userComment": "Fast geschafft...",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                },
+                {
+                    "timestamp": "22.08.2023, 11:13:45",
+                    "url": "img/pictures/truebsee-5337646_1280.jpg",
+                    "userComment": "Am See...",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                }
+            ],
+            "follower": [
+                
+            ],
+            "following": [
+                
+            ]
+        },
+        {
+            "firstname": "Karlheinz",
+            "lastname": "Lenz",
+            "nickname": "Kalle",
+            "avatar": "img/portraits/ai-generated-8137029_1280.jpg",
+            "posts": [
+                {
+                    "timestamp": "10.03.2023, 16:41:07",
+                    "url": "img/pictures/houses-4093227_1280.jpg",
+                    "userComment": "Toller Blick, was meint ihr?",
+                    "comments": [
+            
+                    ],
+                    "likes": [
+   
+                    ]
+                },
+                {
+                    "timestamp": "03.05.2023, 11:15:02",
+                    "url": "img/pictures/nature-3082832_1280.jpg",
+                    "userComment": "Kleine Wanderung...",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                },
+                {
+                    "timestamp": "08.07.2023, 13:10:26",
+                    "url": "img/pictures/lighthouse-1872998_1280.jpg",
+                    "userComment": "Ein Tag am Meer...",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                },
+                {
+                    "timestamp": "25.10.2023, 11:13:45",
+                    "url": "img/pictures/neuschwanstein-2602208_1280.jpg",
+                    "userComment": "Neuschwanstein immer ein Besuch wert...",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                }
+            ],
+            "follower": [
+                
+            ],
+            "following": [
+                
+            ]
+        },
+        {
+            "firstname": "Albus",
+            "lastname": "Dimpeldore",
+            "nickname": "Magic",
+            "avatar": "img/portraits/mage-8131345_1280.png",
+            "posts": [
+                {
+                    "timestamp": "10.10.2023, 16:41:07",
+                    "url": "img/pictures/incantation-5337079_1280.jpg",
+                    "userComment": "Magic potions are amazing...",
+                    "comments": [
+            
+                    ],
+                    "likes": [
+   
+                    ]
+                },
+                {
+                    "timestamp": "03.12.2023, 11:15:02",
+                    "url": "img/pictures/crystal-ball-4006971_1280.jpg",
+                    "userComment": "And my crystal ball says...winter is comming",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                },
+                {
+                    "timestamp": "08.02.2023, 07:10:26",
+                    "url": "img/pictures/lake-4072911_1280.jpg",
+                    "userComment": "A magical place...",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                },
+                {
+                    "timestamp": "25.03.2023, 19:13:45",
+                    "url": "img/pictures/magic-6585335_1280.jpg",
+                    "userComment": "Time for a walk...",
+                    "comments": [
+         
+                    ],
+                    "likes": [
+      
+                    ]
+                }
+            ],
+            "follower": [
+                
+            ],
+            "following": [
+                
+            ]
+        }
+    ]
+}

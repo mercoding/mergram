@@ -1,0 +1,19 @@
+<div class="footerTop">
+    <div id="footerImprint" onclick="content(2)" class="imprint">
+        <img id="imprintImgId" class="imprintImg" src="img/imprint_icon.png" alt="Imprint Button">
+        <p class="imprintParagraph" id="imprintParagraphId">Impressum</p>
+    </div>
+    <div id="footerDataprotection" onclick="content(4)" class="dataprotection">
+        <img id="dataprotectionImgId" class="dataprotectionImg" src="img/dataprotection_icon.png" alt="Dataprotection Button">
+        <p class="dataprotectionParagraph" id="dataprotectionParagraphId">Datenschutz</p>
+    </div>
+</div>
+<div class="footerBottom">
+    <div class="language" id="footerLanguage">
+        <img onclick="switchLanguage()" id="languageImgId" class="languageImg" src="img/german_flag.png" alt="Switch Language Button">
+        <select class="selectBox" id="selectLanguageId" onchange="changeLanguage()">
+            <option value="1">German</option>
+            <option value="2" selected="selected">English</option>
+        </select>
+    </div>
+</div>

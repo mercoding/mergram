@@ -1,0 +1,277 @@
+.left {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 245px;
+    height: 110%;
+    background-color: white;
+    box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.8);
+    z-index: 999;
+    transition: 700ms;
+    grid-area: left;
+}
+
+
+.sidebar {
+    margin: 16px 0 0 16px;
+    height: 85%;
+    /*
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+*/
+    display: grid;
+    grid-template-rows: repeat(16, 1fr);
+    z-index: 999;
+}
+
+
+.topLeft {
+    margin: 0 16px 0 0;
+}
+
+
+.bottomLeft {
+    margin: auto 16px 0 0;
+}
+
+
+.startPage {
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    height: 48px;
+    width: 210px;
+}
+
+.startPage:hover {
+    cursor: pointer;
+    background-color:rgba(190, 190, 190, 0.2);
+    border-radius: 10px;
+}
+
+.startPage img {
+    padding: 0 8px 0 8px;
+    height: 24px;
+    width: 24px;
+    margin: 10px 0 0 4px;
+}
+
+.startPage p {
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+
+.search {
+    display: flex;
+    height: 48px;
+    grid-column: 1;
+    grid-row: 4;
+    width: 210px;
+}
+
+
+.search:hover {
+    cursor: pointer;
+    background-color:rgba(190, 190, 190, 0.2);
+    border-radius: 10px;
+}
+
+
+.search img {
+    padding: 0 8px 0 6px;
+    height: 20px;
+    margin: 16px 0 0 8px;
+}
+
+
+.burgermenu {
+    
+    display: flex;
+    height: 48px;
+    width: 48px;
+    width: 210px;
+    grid-column: 1;
+    grid-row: 16;
+}
+
+
+.burgermenu:hover {
+    cursor: pointer;
+    background-color:rgba(190, 190, 190, 0.2);
+    border-radius: 10px;
+}
+
+
+.burgermenu img {
+    padding: 0 8px 0 8px;
+    height: 24px;
+    width: 24px;
+    margin: 12px 0 0 0;
+}
+
+
+.burgermenu p {
+    margin: 16px 0 0 8px;
+}
+
+
+.profil {
+    display: flex;
+    height: 48px;
+    grid-column: 1;
+    grid-row: 5;
+    width: 210px;
+}
+
+.profil img {
+    height: 24px;
+    margin: 12px 0 0 4px;
+    padding: 0 8px 0 8px;
+}
+
+.profil:hover {
+    background-color:rgba(190, 190, 190, 0.2);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+@media(max-width: 1160px) {
+    .left {
+        width: 80px;
+    }
+
+
+    .startPage {
+        width: 48px;
+    }
+
+
+    .search {
+        width: 48px;
+    }
+
+
+    .profil {
+        width: 48px;
+    }
+
+    .burgermenu {
+        width: 48px;
+    }
+}
+
+
+@media(max-width: 786px) {
+    .mainContentContainer {
+        margin: 64px 0 0 0;
+    }
+
+    .left {
+        position: fixed;
+        top: calc(100vh - 72px);
+        left: 0;
+        width: 100%;
+        height: 128px;
+        background-color: white;
+        box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.8);
+        z-index: 999;
+        transition: 700ms;
+        grid-area: left;
+    }
+
+    .sidebar {
+       /* display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        */
+        display: grid;
+        grid-template-columns: repeat(16, 1fr);
+        margin: 0;
+        height: 128px;
+    }
+
+    .head {
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 0;
+        min-height: 64px !important;
+    }
+
+
+    .head section {
+        height: 64px !important;
+    }
+
+    .headercontainer {
+        margin: 0;
+        min-height: 64px !important;
+    }
+
+    .foryouButton {
+        margin: 4px 0 0 16px;
+    }
+
+    .followerButton {
+        margin: 4px 0 0 8px;
+    }
+
+    .head .divider {
+        display: none;
+    }
+
+    .head .follower {
+        display: none;
+    }
+
+    .topLeft {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: calc(100% - 32px);
+        margin: 0 calc(100% - 512px) 0 calc(100% - 512px);
+    }
+
+
+    .bottomLeft {
+        display: flex;
+        margin: 0 16px 8px 8px;
+    }
+
+
+    .burgermenu:hover {
+        background-color: white;
+    }
+
+
+    .pageName {
+        margin: 0 !important;
+        display: none !important;
+        width: 48px;
+    }
+
+    .startPage {
+        grid-row: 1;
+        grid-column: 4;
+    }
+
+
+    .search {
+        grid-row: 1;
+        grid-column: 8;
+    }
+
+
+    .profil {
+        grid-row: 1;
+        grid-column: 12;
+    }
+
+    .burgermenu {
+        grid-row: 1;
+        grid-column: 16;
+    }
+ 
+}

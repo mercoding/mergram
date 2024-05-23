@@ -1,0 +1,62 @@
+.menu-bar-container {
+    position: relative;
+    width: 20px;
+    height: 32px;
+    margin-right: 16px;
+    left: 16px;
+    cursor: pointer;
+}
+
+
+.menu-bar, .menu-bar::before, .menu-bar::after {
+    position: absolute;
+    height: 2px;
+    width: 16px;
+    background: #333;
+    border-radius: 10px;
+    transition: 300ms cubic-bezier(0.54,-0.65, 0.45, 1.65);
+}
+
+
+.menu-bar {
+    top: 24px;
+    left: 0px;
+}
+
+
+.menu-bar::before, .menu-bar::after {
+    content: "";
+}
+
+
+.menu-bar::before {
+    margin-top: -6px;
+
+}
+
+
+.menu-bar::after {
+    margin-top: 6px;
+}
+
+
+#menu-toggle {
+    display: none;
+}
+
+
+#menu-toggle:checked + .menu-bar-container .menu-bar {
+    width: 0px;
+}
+
+
+#menu-toggle:checked + .menu-bar-container .menu-bar::before {
+    transform: rotate(45deg);
+    margin-top: 0;
+}
+
+
+#menu-toggle:checked + .menu-bar-container .menu-bar::after {
+    transform: rotate(-45deg);
+    margin-top: 0;
+}

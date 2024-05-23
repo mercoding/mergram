@@ -1,0 +1,662 @@
+/*@import url('../node_modules/@pyscript/core/dist/core.css');*/
+@import url('login.css');
+@import url('header.css');
+@import url('aside.css');
+@import url('follower.css');
+@import url('hamburger.css');
+@import url('footer.css');
+@import url('dropdown.css');
+
+
+html,
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+    zoom: normal;
+    width: 100%;
+    
+}
+
+
+.layout {
+    display: grid;
+    grid-template-columns: 245px 1fr 285px;
+    grid-template-areas:
+        "left header right"
+        "left main right"
+        "left footer footer"
+    ;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-content: center;
+    height: 48px;
+    width: 300px;
+    flex-wrap: wrap;
+    margin: 0px 0 0 56px;
+    filter: grayscale(80%);
+}
+
+
+.headline {
+    display: flex;
+    align-items: center;
+    height: 128px;
+    width: 128px;
+    margin: 16px 0 0 -16px;
+
+}
+
+
+.pageName {
+    /*display: flex;
+    margin: 0px 0 0 8px;
+    padding-bottom: 32px;*/
+    grid-column: 1;
+    grid-row: 1;
+}
+
+
+.pageLogo {
+    width: 28px;
+    margin: 0 0 0 2px;
+}
+
+
+.pageLogo:hover {
+    cursor: pointer;
+}
+
+
+.pageName p {
+    font-family: petemoss, arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.pageName:hover {
+    cursor: pointer;
+}
+
+
+.d-none {
+    display: none;
+}
+
+
+.center {
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+    flex-direction: column;
+    grid-area: main;
+    margin: 0 64px 0 64px;
+}
+
+
+section {
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.contactInput {
+    width: 300px;
+}
+
+
+.imprintMessage {
+    display: block;
+    resize: none;
+    height: 150px;
+    width: 302px;
+    max-height: 150px;
+}
+
+
+.mainContent {
+    display: flex;
+    margin: 64px 0 0 0;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.mainContentContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+.postContentImg {
+    width: 500px;
+}
+
+
+.likeAndCommentButton {
+    display: flex;
+    width: 500px;
+    padding-top: 8px;
+    cursor: pointer;
+}
+
+
+.likeAndCommentButton img {
+    width: 24px;
+    padding-right: 16px;
+}
+
+
+.likeCheckbox {
+    display: none;
+}
+
+.likeCounter {
+    width: 500px;
+}
+
+.blackFilter {
+    filter: invert(0%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+}
+
+
+.redFilter {
+    filter: invert(16%) sepia(93%) saturate(6971%) hue-rotate(0deg) brightness(97%) contrast(116%);
+}
+
+
+.postComment {
+    width: 500px;
+}
+
+
+.commentCounter {
+    width: 500px;
+}
+
+
+.commentForm {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0em;
+    padding-bottom: 16px;
+}
+
+
+.commentInput {
+    width: 435px;
+    flex: 1 0 16rem;
+}
+
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 500px;
+    padding-bottom: 32px;
+    flex-wrap: wrap;
+}
+
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 100%;
+}
+
+
+.commentPostTimestamp {
+    margin: -16px 0 0 16px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    opacity: 0.7;
+}
+
+.postButton {
+    flex: 1 0 0;
+}
+
+
+.postButton:hover {
+    cursor: pointer;
+}
+
+
+.commentCounter:hover {
+    cursor: pointer;
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+}
+
+.overlayContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+
+.overlayContentContainer {
+    display: flex;
+    height: 716px;
+}
+
+
+.closeButtonContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 64px;
+    margin-top: -64px;
+}
+
+
+.overlayImageContainer {
+    height: 100%;
+}
+
+.overlayImageContainer img {
+    width: 500px;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+
+.overlayCommentContainer {
+    background-color: white;
+    width: 300px;
+    overflow-y: visible;
+    height: 100%;
+}
+
+.overlayComments {
+    padding: 16px;
+    overflow-y: auto;
+    height: 95%;
+    
+}
+
+.closeButton {
+    width: 32px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(180deg) brightness(100%) contrast(100%);
+    padding-right: 16px;
+}
+
+
+.avatar {
+    display: flex;
+    width: 40px !important;
+    height: 40px !important;
+    padding-right: 8px;
+}
+
+
+.avatarImg {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
+    object-position: center top;
+    object-fit: cover;
+}
+
+
+.avatarInfo {
+    display: flex;
+    margin: 4px 0 0 0;
+}
+
+
+.userPostInfo {
+    display: flex;
+    padding-bottom: 8px;
+    width: 500px;
+}
+
+.userPostInfo img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-position: center top;
+    object-fit: cover;
+}
+
+.userPostInfo p {
+    margin: 0;
+}
+
+
+.commentPost {
+    display: flex;
+    margin: 4px 0 0 0;
+    width: 100%;
+}
+
+.commentPost p {
+    margin: 8px 0 0 0;
+}
+
+.followButton {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    
+    cursor: pointer;
+    color:darkcyan;
+    font-weight: bold;
+}
+
+.followedIconImg {
+    width: 16px !important;
+    height: 16px !important;
+}
+
+.followButton p {
+    font-size: 12px;
+    margin: 0 0 20px 8px;
+    text-overflow: initial;
+    width: 40px;
+}
+
+.profileContainer {
+    display: flex;
+    width: 500px
+}
+
+.profileContainer img {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    margin: 24px 0 0 0;
+}
+
+
+.profileInfo {
+    margin: 16px 0 0 16px;
+}
+
+
+.profileFollowContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 300px;
+    margin: 0;
+}
+
+.profileFollower {
+    cursor: pointer;
+}
+
+
+.profileFollowed {
+    cursor: pointer;
+}
+
+.seperatorPoint {
+    width: 8px !important;
+    height: 8px !important;
+    padding: 0 2px 0 2px;
+    margin: 8px 2px 0 0;
+}
+
+
+.seperator {
+    height: 1px;
+    background-color: black;
+    opacity: 0.2;
+}
+
+
+.overlayContentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileOverlayContainer {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 414px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+
+.profileOverlayHead {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 48px;
+}
+
+
+.profileOverlayHead p {
+    padding: 0;
+    margin: 16px 0 0 32px;
+    width: 100%;
+    height: 32px;
+    text-align: center;
+}
+
+
+.profileOverlayHead img {
+    padding: 0;
+    margin: 8px 8px 0 0;
+    height: 32px;
+}
+
+
+.profilesOverlay {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+
+
+.userOverlayContainer {
+    display: flex;
+    margin: 8px 16px 0 16px;
+    justify-content: space-between;
+}
+
+.userOverlay {
+    display: flex;
+}
+
+.userOverlay img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: 0;
+    padding: 10px;
+}
+
+
+@media(max-width: 1160px) {
+    .layout {
+        display: grid;
+        grid-template-columns: 64px 1fr;
+        grid-template-areas:
+            "left header"
+            "left main"
+            "left footer"
+        ;
+    }
+
+    
+    .pageName {
+        margin: 48px 0 0 6px;
+        padding-bottom: 80px;
+    }
+
+    .pageLogo {
+        display: block;
+    }
+
+
+    .pageName p {
+        display: none;
+    }
+
+
+    .startPage p {
+        display: none;
+    }
+
+
+    .search p {
+        display: none;
+    }
+
+
+    .profil p {
+        display: none;
+    }
+
+    .burgermenu p {
+        display: none;
+    }
+}
+
+
+@media(max-width: 786px) {
+    .layout {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header"
+            "main"
+            "footer"
+            "left"
+        ;
+    }
+
+   
+
+    .center {
+        margin: 0 !important;
+        width: 100%;
+    }
+
+
+    .postContentImg {
+        width: 300px;
+        height: auto;
+        margin: 0;
+    }
+
+    .mainContentContainer > * {
+        width: 500px;
+    }
+
+
+    .overlayContentContainer {
+        width: 100%;
+        height: 80%;
+    }
+
+    .overlayImageContainer {
+        display: none;
+    }
+
+    .overlayCommentContainer {
+        width: 100%;
+    }
+
+
+    .dataprotectioncontainer {
+        padding: 0 32px 0 32px;
+    }
+
+    .imprintcontainer {
+        width: calc(100% - 100px);
+        padding: 0 32px 0 32px;
+    }
+
+    .imprintcontainer form input {
+        margin-top: 8px;
+    }
+}
+
+
+@media(max-width: 525px) {
+    .mainContentContainer > * {
+        width: calc(100% - 32px);
+    }
+
+    .postContentImg {
+        width: 100%;
+    }
+
+
+    .commentInput {
+        width: calc(100% - 32px);
+    }
+}
+
+
+@media(max-width: 425px) {
+    .mainContentContainer > * {
+        width: calc(100% - 32px);
+    }
+
+    .postContentImg {
+        width: 100%;
+    }
+
+    .profileFollowContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0;
+    }
+
+    .imprintcontainer form input {
+        width: calc(100% - 25px);
+    }
+
+    .imprintcontainer form textarea {
+        width: calc(100% - 24px);
+    }
+}
+
+
+@font-face {
+    font-family: roboto;
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: petemoss;
+    src: url("../fonts/Petemoss/Petemoss-Regular.ttf");
+}

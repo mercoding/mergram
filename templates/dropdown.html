@@ -1,0 +1,27 @@
+<section>
+    <div class="dropdownContent">
+        <div id="dropdownContainer" class="dropdownContainer">
+            <div class="dropdownImprint" id="dropdownImprint">
+                <img src="./img/imprint_icon.png" alt="Imprint Button">
+                <p>Impressum</p>
+            </div>
+            <div class="dropdownDataprotection" id="dropdownDataprotection">
+                <img src="./img/dataprotection_icon.png" alt="Dataprotection Button">
+                <p>Datenschutz</p>
+            </div>
+            <div class="dropdownLanguage" id="dropdownLanguage">
+                <img onclick="switchLanguage()" id="languageImgId" class="languageImg" src="img/german_flag.png"
+                    alt="Switch Language Button">
+                <select class="selectBox" id="selectLanguageId" onchange="changeLanguage()">
+                    <option value="1">German</option>
+                    <option value="2" selected="selected">English</option>
+                </select>
+            </div>
+            <div class="dropdownLogOut" id="dropdownLogOut" onclick="logOut()">
+                <img src="./svg/tdesign--poweroff.svg" alt="Log Out">
+                <p>Abmelden</p>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
